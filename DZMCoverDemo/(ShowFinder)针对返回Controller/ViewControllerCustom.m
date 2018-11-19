@@ -49,7 +49,7 @@
     TempViewController *vc = [[TempViewController alloc] init];
     vc.view.backgroundColor = [UIColor greenColor];
     vc.textLabel.text = [NSString stringWithFormat:@"%d",self.number];
-    
+    vc.textLabel.text = [NSString stringWithFormat:@"%d",self.number];;;
     // 显示
     [coverVC setController:vc];
     
