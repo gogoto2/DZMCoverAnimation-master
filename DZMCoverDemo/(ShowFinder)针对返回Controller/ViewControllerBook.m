@@ -49,6 +49,7 @@
     vc.view.backgroundColor = [UIColor greenColor];
     vc.textLabel.text = [NSString stringWithFormat:@"%d",self.number];
     vc.textLabel.text = [NSString stringWithFormat:@"%d",self.number];
+    NSLog(@"okhhh");
     NSLog(@"oklll");
     // 显示
     [coverVC setController:vc];
